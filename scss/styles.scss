@@ -423,7 +423,8 @@ footer {
         width: 35px;
         height: 35px;
         border-radius: 50%;
-        border: 3px solid lighten($base-color, 25%);
+        //border: 3px solid lighten($base-color, 25%);
+        border: 3px solid lighten($base-color, 80%);
         text-align:center;
     }
 
@@ -432,6 +433,21 @@ footer {
         animation-iteration-count: infinite;
         padding-top: 5px;;
     }
+}
+
+#lead-pic-detail {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: right;
+    z-index: 10;
+    bottom: 15px;
+    color: #fff;
+    //color: lighten($base-color, 80%);
+    font-weight: 500;
+    font-size: 0.75em;
+    margin-bottom: 0px;
 }
 
 
