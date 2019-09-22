@@ -34,7 +34,8 @@
 */
 
 // Define base and accent colors
-$base-color: #C11B17;
+//$base-color: #C11B17;
+$base-color: #000000;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -378,13 +379,13 @@ footer {
     }
 
     h2 {
-        color: lighten($base-color, 30%);
+        color: lighten($base-color, 70%);
         font-weight: 500;
         font-size: 2.25em;
         margin-bottom: 0px;
     }
     h3 {
-        color: lighten($base-color, 35%);
+        color: lighten($base-color, 70%);
         font-weight: 500;
         font-size: 1.25em;
         margin-bottom: 0px;
@@ -400,7 +401,7 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba($base-color-hover, 0.5);
+    background: rgba($base-color-hover, 0.375);
     z-index: 1;
 }
 
@@ -668,6 +669,24 @@ footer {
         padding: 0 0 0 15px;
     }
 }
+
+/*
+    -------------------------------
+    ----- 8. Publication Styles -----
+    -------------------------------
+*/
+
+#publications{
+    padding: 50px 15px 20px 15px;
+    border-bottom: 1px solid $border;
+    text-align: center;
+
+    h2 {
+        color: $heading;
+        margin-bottom: 50px;
+    }
+}
+
 
 /*
     -------------------------------
