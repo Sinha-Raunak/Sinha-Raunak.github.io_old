@@ -387,7 +387,8 @@ footer {
     h3 {
         color: lighten($base-color, 70%);
         font-weight: 500;
-        font-size: 1.25em;
+        //font-size: 1.25em;
+        font-size: 1.50em;
         margin-bottom: 0px;
     }
 
@@ -461,7 +462,8 @@ footer {
 
     a {
         display: block;
-        color: lighten($base-color, 2%);
+        //color: lighten($base-color, 2%);
+        color: lighten($base-color, 80%);
         padding: 10px;
 
         &:hover {
